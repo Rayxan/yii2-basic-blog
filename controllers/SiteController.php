@@ -15,6 +15,7 @@ class SiteController extends Controller
     /**
      * {@inheritdoc}
      */
+    //Here are especial type of classes which adds some additional functionaliti to the class 
     public function behaviors()
     {
         return [

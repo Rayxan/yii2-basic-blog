@@ -23,7 +23,8 @@ class LoginForm extends Model
     /**
      * @return array the validation rules.
      */
-    public function rules()
+    //Based on this rules, the validation of the form happens
+    public function rules() 
     {
         return [
             // username and password are both required
