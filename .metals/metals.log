@@ -1,0 +1,9 @@
+[0m2021.06.06 19:25:48 INFO  Started: Metals version 0.10.4 in workspace 'C:\wamp64\www\treino\yii2-basic-blog' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.06 19:25:51 INFO  time: initialize in 3.19s[0m
+[0m2021.06.06 19:25:51 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.06 19:25:51 WARN  no build tool detected in workspace 'C:\wamp64\www\treino\yii2-basic-blog'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.07 00:40:15 INFO  shutting down Metals[0m
+[0m2021.06.07 10:32:23 INFO  Started: Metals version 0.10.4 in workspace 'C:\wamp64\www\treino\yii2-basic-blog' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.07 10:32:31 INFO  time: initialize in 7.63s[0m
+[0m2021.06.07 10:32:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.07 10:32:31 WARN  no build tool detected in workspace 'C:\wamp64\www\treino\yii2-basic-blog'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
