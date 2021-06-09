@@ -4,7 +4,7 @@
 ?>
 
 <div>
-    <a href="<?= \yii\helpers\Url::to(['/article/view', 'id' => $model->id]) ?>">
+    <a href="<?= \yii\helpers\Url::to(['/article/view', 'slug' => $model->slug]) ?>">
         <h3><?= \yii\helpers\Html::encode($model->title) ?></h3>
     </a>
     <div>
