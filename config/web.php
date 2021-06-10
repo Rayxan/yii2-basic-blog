@@ -50,11 +50,13 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                'article/<action: (index|update|create|delete)>' => 'article/<action>',
+                'article/<action:(create|index|update|delete)>' => 'article/<action>',
                 'article/<slug>' => 'article/view'
             ],
         ],
-        
+        'formatter' => [
+            'datetimeFormat' => 'short'
+        ]
     ],
     'params' => $params,
 ];
