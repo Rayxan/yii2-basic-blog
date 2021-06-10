@@ -10,5 +10,12 @@
     <div>
         <?= \yii\helpers\StringHelper::truncateWords(($model->getEncodedBody()), 40)?>
     </div>
+    <p class="text-muted text-right">
+        <small> <b><?=Yii::$app->formatter->asRelativetime($model->created_at) ?></b> 
+                          <!--Yii::$app->formatter->asDatetime($model->created_at)-->
+    
+            <b>| By: <?php echo $model->createdBy->username ?></b>
+        </small>
+    </p>
     <hr>
 </div>

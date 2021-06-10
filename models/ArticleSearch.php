@@ -40,7 +40,8 @@ class ArticleSearch extends Article
      */
     public function search($params)
     {
-        $query = Article::find();
+        // The way the posts will be showed
+        $query = Article::find()->orderBy('created_at DESC');
 
         // add conditions that should always apply here
 
